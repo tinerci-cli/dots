@@ -16,7 +16,7 @@ super + F1
 	st -e btop
 
 super + F2
-	st -e pulsemixer
+	st -e pulsemixer; kill -44 $(pidof dwmblocks); $HOME/.local/bin/sbar/volume.sh
 
 super +F3
 	st -e ranger
@@ -29,6 +29,9 @@ super + F5
 
 super + F6
     $HOME/.local/bin/dmenu/edfiles
+
+super + F7
+    $HOME/.local/bin/dmenu/kbsel
 
 super + F12
     $HOME/.local/bin/dmenu/logout
