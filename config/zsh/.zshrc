@@ -34,6 +34,5 @@ source $HOME/.config/zsh/plugins/copyfile.plugin.zsh
 source $HOME/.config/zsh/plugins/copypath.plugin.zsh
 source $HOME/.config/zsh/plugins/vi-mode.plugin.zsh
 source $HOME/.config/zsh/plugins/clipboard.zsh
-source $HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh #must be loaded last
-
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh must be loaded last
