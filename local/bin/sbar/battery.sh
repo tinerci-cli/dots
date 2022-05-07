@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#probably dont need hella elif
-
 bat=$(acpi | awk '{print $4}' | tr -dc '0-9')
 status=$(acpi | awk '{print $3}')
 
@@ -26,6 +24,6 @@ then
 	icon=" "
 elif [ "$bat" -ge 0 ]
 then
-	icon=" "
+    icon=" " && notify-send $(acpi | awk {'print "charge me" $5, "lef"'})
 fi
-echo "$icon $bat%"
+echo "$icon$bat%"
