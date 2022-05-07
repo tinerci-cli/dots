@@ -1,0 +1,8 @@
+#!/bin/sh
+sel=$(man -k . | awk {'print $1'} | sed -e s/\(1\)// -e s/\(2\)// -e s/\(3\)// -e s/\(4\)// -e s/\(5\)// -e s/\(6\)// -e s/\(7\)// -e s/\(8\)// -e s/\(9\)// -e s/\(0\)// -e s/,// -e s/\(1// | dmenu -l 20)
+
+if [ "$sel" ]; then
+    man -T pdf $sel | zathura -
+else 
+    notify-send -t 3000 "terminated" && exit
+fi

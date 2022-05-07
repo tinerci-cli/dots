@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sel=$(awk '{print $1}' $XDG_CONFIG_HOME/shell/bm-files | dmenu -l 20)
+ed=$(grep $sel $XDG_CONFIG_HOME/shell/bm-files | awk '{print $2}')
+
+if [ "$ed" ]; then
+    $TERMINAL -e $EDITOR $ed
+else 
+    notify-send -t 3000 "terminated" && exit
+fi

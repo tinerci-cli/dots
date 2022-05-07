@@ -1,0 +1,54 @@
+#!/bin/sh
+#common commands
+alias \
+	c="clear" \
+	aus="doas shutdown -P now" \
+	re="doas shutdown -r now" \
+	rmr="rm -Ivr" \
+	ll="ls -lAhN --color=auto --group-directories-first" \
+	la="ls -AhN --color=auto --group-directories-first" \
+	sx="startx ~/.config/x11/xinitrc" \
+	xfce="startxfce4" \
+	mkd="mkdir -pv" \
+	dmci="doas make clean install" \
+	cp="cp -ivr" \
+	ls="ls -hN --color=auto --group-directories-first" \
+	rm="rm -Iv" \
+	mv="mv -iv"
+
+#common programs
+alias \
+	v="nvim" \
+	z="zathura" \
+	m="mpv" \
+	s="nsxiv" \
+
+#git
+alias \
+	g="git" \
+	ga="git add" \
+	gb="git branch" \
+	gcm="git commit" \
+	gcl="git clone" \
+	gco="git checkout" \
+	gd="git diff" \
+	gf="git fetch" \
+	gg="git gui citool" \
+	gps="git push" \
+	gpl="git pull" \
+	gm="git merge" \
+	gr="git remote" \
+	grb="git rebase" \
+	grs="git reset" \
+	grv="git revert"
+
+#xbps
+alias \
+	xbpsi="sudo xbps-install" \
+	xbpsq="sudo xbps-query" \
+	xbpsr="sudo xbps-remove" \
+	xbpsc="sudo xbps-reconfigure" \
+	xbpsa="sudo xbps-alternatives" \
+	xbpsp="sudo xbps-pkgdb" \
+	xbpsx="sudo xbps-reindex" \
+	xbpss="sudo xbps-src"
