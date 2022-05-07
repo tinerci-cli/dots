@@ -1,0 +1,13 @@
+#!/bin/sh
+
+choice="lock\nlogout\nreboot\nshutdown\nsuspend\nhibernate"
+choce=$(echo "$choice" | dmenu -i)
+
+case "$choce" in
+	lock) slock ;;
+	logout) exit ;;
+	reboot) doas shutdown -r now ;;
+	shutdown) doas shutdown -P now ;;
+	suspend) doas zzz -z ;;
+	hibernate) doas zzz -Z ;;
+esac
