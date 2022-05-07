@@ -30,6 +30,9 @@ super + F5
 super + F6
     $HOME/.local/bin/dmenu/edfiles
 
+super + F12
+    $HOME/.local/bin/dmenu/logout
+
 XF86Audio{Prev,Next,Pause,Play,Stop}
 	mpc -q {prev,next,pause,play,stop}
 
