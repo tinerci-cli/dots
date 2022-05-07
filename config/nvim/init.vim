@@ -21,7 +21,7 @@ Plug 'https://github.com/morhetz/gruvbox'
 Plug 'https://github.com/xiyaowong/nvim-transparent'
 Plug 'https://github.com/ap/vim-css-color'
 Plug 'https://github.com/norcalli/nvim-colorizer.lua'
-Plug 'https://github.com/ycm-core/YouCompleteMe'
+"Plug 'https://github.com/ycm-core/YouCompleteMe'
 call plug#end()
 
 "theming
