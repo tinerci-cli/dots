@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sh $HOME/.local/share/dp
+exit

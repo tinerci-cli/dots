@@ -1,0 +1,19 @@
+#!/bin/sh
+
+man1=`ls /usr/share/man/man1 | sed "s/.\{0,5\}$//; /^$/d"`
+man2=`ls /usr/share/man/man2 | sed "s/.\{0,5\}$//; /^$/d"`
+man3=`ls /usr/share/man/man3 | sed "s/.\{0,5\}$//; /^$/d"`
+man4=`ls /usr/share/man/man4 | sed "s/.\{0,5\}$//; /^$/d"`
+man5=`ls /usr/share/man/man5 | sed "s/.\{0,5\}$//; /^$/d"`
+man6=`ls /usr/share/man/man6 | sed "s/.\{0,5\}$//; /^$/d"`
+man7=`ls /usr/share/man/man7 | sed "s/.\{0,5\}$//; /^$/d"`
+man8=`ls /usr/share/man/man8 | sed "s/.\{0,5\}$//; /^$/d"`
+
+cman=`echo $man1 $man2 $man3 $man4 $man5 $man6 $man7 $man8 | sed 's/\ /\n/g' | dmenu -l 20`
+
+if [ "$cman" ]; then
+    man -Tpdf $cman > /tmp/$cman.pdf
+    zathura /tmp/$cman.pdf
+else
+    notify-send -t 3000 "terminated" && exit
+fi

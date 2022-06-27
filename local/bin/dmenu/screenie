@@ -1,0 +1,10 @@
+#!/bin/sh
+
+choice="all monitors\nfocused window\narea"
+choce=$(echo "$choice" | dmenu -i)
+
+case "$choce" in
+    all\ monitors) scrot -e 'mv $f ~/pics/screenshots' ;;
+    focused\ window) scrot -u -e 'mv $f ~/pics/screenshots' ;;
+    area) scrot -s -f -e 'mv $f ~/pics/screenshots' ;;
+esac

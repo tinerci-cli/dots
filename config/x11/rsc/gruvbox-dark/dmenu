@@ -1,0 +1,5 @@
+!dmenu
+dmenu.normbgcolor: col0
+dmenu.normfgcolor: fg
+dmenu.selbgcolor: fg
+dmenu.selfgcolor: bg

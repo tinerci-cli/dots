@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   enable-background="new"
+   version="1.0"
+   id="svg47"
+   sodipodi:docname="preferences-desktop-icons.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview49"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="11.313708"
+     inkscape:cx="40.039921"
+     inkscape:cy="32.173359"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg47" />
+  <defs
+     id="defs5">
+    <filter
+       id="a"
+       x="-0.032333333"
+       y="-0.032333333"
+       width="1.0646667"
+       height="1.0646667"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation="4.8"
+         id="feGaussianBlur2" />
+    </filter>
+  </defs>
+  <circle
+     cx="32"
+     cy="32"
+     r="28"
+     enable-background="new"
+     id="circle37"
+     style="stroke-width:0.116666;fill:#ff768b;fill-opacity:1" />
+  <path
+     id="rect945"
+     style="fill:#ffffff;stroke-width:3.13786;stroke-linecap:round;stroke-linejoin:round"
+     d="M 18 41 A 2 2 0 0 0 16 43 L 16 45 A 2 2 0 0 0 18 47 L 46 47 A 2 2 0 0 0 48 45 L 48 43 A 2 2 0 0 0 46 41 L 18 41 z M 18 43 L 20 43 L 20 45 L 18 45 L 18 43 z M 40 43 L 46 43 L 46 45 L 40 45 L 40 43 z " />
+  <rect
+     style="fill:#ffffff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
+     id="rect1332"
+     width="6"
+     height="6"
+     x="16"
+     y="29"
+     ry="1" />
+  <rect
+     style="fill:#ffffff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round"
+     id="rect1436"
+     width="6"
+     height="6"
+     x="16"
+     y="17" />
+</svg>

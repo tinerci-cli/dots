@@ -5,9 +5,9 @@ choce=$(echo "$choice" | dmenu -i)
 
 case "$choce" in
 	lock) slock ;;
-	logout) exit ;;
-	reboot) doas shutdown -r now ;;
-	shutdown) doas shutdown -P now ;;
-	suspend) doas zzz -z ;;
-	hibernate) doas zzz -Z ;;
+	logout) killall dwm ;;
+	reboot) notify-send -u critical "rebooting now" && sleep 2 && doas shutdown -r now ;;
+	shutdown) notify-send -u critical "shutting down now" && sleep 2 && doas shutdown -P now ;;
+	suspend) slock && doas zzz -z ;;
+	hibernate) slock && doas zzz -Z ;;
 esac

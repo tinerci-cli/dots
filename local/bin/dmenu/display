@@ -1,0 +1,7 @@
+#!/bin/sh
+dploc="${XDG_DATA_HOME:-$HOME/.local/share}/dp"
+losel="$(ls $HOME/.local/bin/screenlayout | dmenu -l 20)"
+sel="$(ls $HOME/.local/bin/screenlayout/$losel)"
+
+ln -sf "$sel" "$dploc"
+exec $HOME/.local/bin/setlo

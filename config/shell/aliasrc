@@ -14,7 +14,8 @@ alias \
 	cp="cp -ivr" \
 	ls="ls -hN --color=auto --group-directories-first" \
 	rm="rm -Iv" \
-	mv="mv -iv"
+	mv="mv -iv" \
+    lf="lfub"
 
 #common programs
 alias \
@@ -41,6 +42,14 @@ alias \
 	grb="git rebase" \
 	grs="git reset" \
 	grv="git revert"
+
+#pacman
+alias \
+    p="sudo pacman" \
+    pQ="pacman -Ss" \
+    pU="yay" \
+    pI="sudo pacman -S" \
+    pR="sudo pacman -Rs"
 
 #xbps
 alias \

@@ -1,0 +1,14 @@
+! dwm
+dwm.normbgcolor:        col0
+dwm.normbordercolor:    softbg
+dwm.normfgcolor:        fg
+dwm.selbgcolor:         col11
+dwm.selbordercolor:     col7
+dwm.selfgcolor:         col0
+dwm.smartgaps:          1
+dwm.mfact:              0.5
+dwm.borderpx:           3
+dwm.gappih:             10
+dwm.gappiv:             10
+dwm.gappoh:             10
+dwm.gappov:             10
